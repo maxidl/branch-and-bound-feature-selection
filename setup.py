@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
 	name='branch-and-bound-feature-selection',
-	version='0.1',
+	version='0.3',
 	description='Implementation of Backward Feature Selection using "Branch and Bound"',
 	url='https://github.com/MaximilianIdahl/branch-and-bound-feature-selection',
 	author='Maximilian Idahl',

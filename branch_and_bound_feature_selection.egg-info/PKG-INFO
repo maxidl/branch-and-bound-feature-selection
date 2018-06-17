@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: branch-and-bound-feature-selection
-Version: 0.1
+Version: 0.3
 Summary: Implementation of Backward Feature Selection using "Branch and Bound"
 Home-page: https://github.com/MaximilianIdahl/branch-and-bound-feature-selection
 Author: Maximilian Idahl
