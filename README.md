@@ -9,6 +9,8 @@ pip install branch-and-bound-feature-selection
 
 ## Example
 ```python
+from branch_and_bound import BranchAndBound
+import numpy as np
 test_data = np.array([[1, 2, 3, 4, 5, 1],
                       [1, 2, 3, 4, 5, 1],
                       [1, 2, 3, 4, 6, 0],
