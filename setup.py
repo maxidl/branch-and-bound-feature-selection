@@ -9,6 +9,6 @@ setup(
 	author_email='max@idahl.de',
 	license='MIT',
 	packages=['branch_and_bound'],
-	install_requires=['numpy>=1.13', 'sklearn>=0.19'],
+	install_requires=['numpy>=1.13', 'scikit-learn>=0.19'],
 	keywords=['feature selection', 'branch and bound', 'branch', 'bound', 'backward', 'eliminaton']
 )
