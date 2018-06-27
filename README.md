@@ -33,8 +33,10 @@ test_data = pd.DataFrame([[1, 'a', 3, 4, 5, 1],
                       [2, 'c', 3, 4, 6, 0],
                       [2, 'a', 3, 4, 6, 0],
                       [1, 'a', 4, 3, 5, 1]])
-test_data.columns = ['exampleInts', 'exampleStrings', 'exampleInts',
-                     'exampleInts', 'exampleInts', 'class']
+test_data.columns = ['exampleInts', 'exampleStrings', 'exampleInts2',
+                     'exampleInts3', 'exampleInts4', 'class']
+                     
+#NOTE: an integer represents a label of a categorical variable
 
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
