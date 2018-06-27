@@ -1,6 +1,21 @@
 # Branch-and-Bound-Feature-Selection-Python
 Implementation of Feature Selection using Branch and Bound (Backward Elimination)
 
+        Finding the indices of the k best dimensions using the backward
+        elimination approach "Branch and Bound". (Narendra and Fukunaga, 1977)
+        It is guaranteed to find the optimal feature subset under the monoticity
+        assumption.
+        The subspace quality measure used is Subspace Inconsistency:
+            Idea:   A Subspace has an inconsistent labeling if identical vectors
+                    in the subspace have different class labels
+                    
+            + efficient search for optimal solutions due to monotonicity
+            + well suited for discrete data
+            
+            - useless for real-valued vectors
+            - worst case runtime is still exponential in the number of features
+
+
 ## Install via pip:
 ```
 pip install branch-and-bound-feature-selection
